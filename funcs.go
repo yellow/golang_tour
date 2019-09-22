@@ -4,6 +4,8 @@ import "fmt"
 
 // functions start with keyword func. datatypes after variable names.
 // function return types at the end. again, no semi-colons ;-; 
+
+// func add(x, y int) int { // also works. shorter
 func add(x int, y int) int {
 	return x + y
 }
